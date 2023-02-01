@@ -1,0 +1,27 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul a {
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+    padding: 40px;
+}
+
